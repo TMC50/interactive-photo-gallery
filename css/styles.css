@@ -1,6 +1,21 @@
-.gallery {
-    max-width: 800px;
-    display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
-    grid-template-rows: 250px 250px 250px;
+* {
+   box-sizing: border-box;
 }
+
+body {
+    margin-top: 100px;
+}
+
+/* ===== Grid Layout ==== */
+
+.gallery {
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 25px 5px;
+    margin: auto;
+    border: 1px solid red;
+    justify-items: center;
+}
+  
