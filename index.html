@@ -48,6 +48,11 @@
             <img src="img/thumbnails/12.jpg" alt="Picture of the meadow of bluebells with distant snow topped mountains.">
         </a>
     </div>
-    <script src="js/baguetteBox.js"></script>
+    <script src="js/baguetteBox.js" async></script>
+    <script>
+        window.addEventListener('load', function() {
+          baguetteBox.run('.gallery');
+        });
+    </script>
 </body>
 </html>
