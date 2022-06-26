@@ -1,9 +1,35 @@
+/* ===== General Styling ==== */
+
 * {
    box-sizing: border-box;
 }
 
+html {
+    background-color: lightblue;
+}
+
+.search-container {
+    display: grid;
+    margin: auto;
+    border-radius: 5px;
+    border: 2px solid lightgray;
+}
+
+input {
+    width: 520px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 body {
-    margin-top: 100px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+img {
+    border-radius: 15px;
+    border: 1px solid black;
 }
 
 /* ===== Grid Layout ==== */
@@ -15,7 +41,7 @@ body {
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 25px 5px;
     margin: auto;
-    border: 1px solid red;
+    padding-top: 20px;
     justify-items: center;
 }
   
