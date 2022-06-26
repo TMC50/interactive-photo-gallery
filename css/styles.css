@@ -41,7 +41,7 @@ img {
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 25px 5px;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 25px;
     justify-items: center;
 }
-  
+
